@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sanjana G Patil | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header, footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    nav {
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+    }
+    nav a:hover {
+      background-color: #2c3e50;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      flex: 1 1 280px;
+    }
+    a {
+      color: #3498db;
+    }
+    @media(max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sanjana G Patil</h1>
+    <p>Web Developer | Creative Thinker | Problem Solver</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#resume">Resume</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>"Hello! I’m Sanjana G Patil, a passionate and detail-oriented web developer with a strong foundation in HTML, CSS, and JavaScript. I specialize in building clean, responsive, and user-friendly websites that deliver great user experiences across all devices. Whether it’s designing sleek interfaces or optimizing site performance, I love turning creative ideas into interactive digital solutions. I'm always eager to learn new technologies and contribute to meaningful projects that make a difference."
+
+.</p>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p><a href="resume.pdf" target="_blank">Download My Resume</a></p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Project A</h3>
+        <p>Portfolio website built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Project B</h3>
+        <p>Gas leakage detection system using arduino.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="card">HTML5</div>
+      <div class="card">CSS3</div>
+      <div class="card">JavaScript</div>
+      <div class="card">Git & GitHub</div>
+      <div class="card">Responsive Design</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sanjanagpatil.10@gmail.com">sanjanagpatil.10@gmail.com</a></p>
+    <p>Phone: +91 97310 73410</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sanjana-g-patil-76a85b2bb/" target="_blank">linkedin.com/in/sanjanapatil</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sanjana G Patil. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
